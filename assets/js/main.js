@@ -1,5 +1,7 @@
 (function ($) {
  "use strict";
+
+	$('.js-current-year').text(new Date().getFullYear());
  
 /*
   STICKY
